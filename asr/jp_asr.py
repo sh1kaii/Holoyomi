@@ -1,8 +1,13 @@
 import json
 import numpy as np
+
+
+from asr_interface import IAutomaticSpeechRecognition
+
+
 from vosk import Model, KaldiRecognizer
 
-class JapaneseASR:
+class JapaneseASR(IAutomaticSpeechRecognition):
     def __init__(self, model_path):
         self.model = Model(model_path)
         self.recognizer = KaldiRecognizer(self.model, 16000)
@@ -15,3 +20,10 @@ class JapaneseASR:
             result = json.loads(self.recognizer.Result())
             return result.get("text", "")
         return ""
+    
+
+if __name__ == "__main__":
+    asr = JapaneseASR("models/vosk-ja/vosk-model-small-ja-0.22")
+    
+    
+    

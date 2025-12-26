@@ -5,9 +5,9 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../.
 import time
 import threading
 import queue
-from holoyomi.ui.subtitle_window import SubtitleWindow
-from holoyomi.asr.jp_asr import JapaneseASR
-from holoyomi.audio.audio_capture import AudioCapture
+from ui.subtitle_window import SubtitleWindow
+from asr.jp_asr import JapaneseASR
+from audio.audio_capture import AudioCapture
 
 # Placeholder classes
 # class AudioCapture:
