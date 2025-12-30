@@ -1,0 +1,4 @@
+# Place your splash background image here (PNG recommended)
+# Example: splash_bg.png
+# Save your pixel art splash/menu background as splash_bg.png in this folder.
+# The code will use this image for the splash/menu screen background.

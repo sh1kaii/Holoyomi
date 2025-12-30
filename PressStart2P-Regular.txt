@@ -1,0 +1,3 @@
+# Downloaded from https://fonts.google.com/specimen/Press+Start+2P
+# License: SIL Open Font License, 1.1
+# This is a placeholder. Please download the actual PressStart2P-Regular.ttf and place it in this directory for the pixel font to work.
