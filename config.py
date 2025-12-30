@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Holoyomi Configuration
 """
@@ -60,3 +61,6 @@ def validate_config():
 if __name__ != "__main__":
     if DEBUG_MODE:
         validate_config()
+=======
+# Configuration settings
+>>>>>>> 4c3e32737f364236d02eb6f18f7d604f08a93f41

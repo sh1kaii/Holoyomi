@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import requests
 import os
 import time
@@ -92,3 +93,6 @@ class JPToENTranslator:
     def get_cache_size(self):
         """Get number of cached translations."""
         return len(_translation_cache)
+=======
+# Translation module
+>>>>>>> 4c3e32737f364236d02eb6f18f7d604f08a93f41
